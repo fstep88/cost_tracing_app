@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jEnQNxDew7G6+ZjZj5JkBULYR6GdfdYRoxZ015TFt+LHMo5/2el6SW5COiUXN/BQfEPJr3kkMSFzZK+A+XvQTw==",
+  "success": true,
+  "projectFilePath": "D:\\work\\cost_tracing_app\\CostTracing.App\\CostTracing.Core\\CostTracing.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\flori\\.nuget\\packages\\restsharp\\106.12.0\\restsharp.106.12.0.nupkg.sha512"
+  ],
+  "logs": []
+}
