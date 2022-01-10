@@ -7,11 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CostTracing.App.Android", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CostTracing.App.iOS", "CostTracing.App\CostTracing.App.iOS\CostTracing.App.iOS.csproj", "{CC77CDE4-C76A-435F-A3A6-77A752029CA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CostTracing.App", "CostTracing.App\CostTracing.App\CostTracing.App.csproj", "{614EE966-365E-4B69-9954-9B30EEF7D362}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CostTracing.App", "CostTracing.App\CostTracing.App\CostTracing.App.csproj", "{614EE966-365E-4B69-9954-9B30EEF7D362}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CostTracing.Core", "CostTracing.Core\CostTracing.Core.csproj", "{145AE128-AFDB-4086-9CD1-FD059BC86F21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CostTracing.Core", "CostTracing.Core\CostTracing.Core.csproj", "{145AE128-AFDB-4086-9CD1-FD059BC86F21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CostTracing.Backend.CurrencyExchange.API", "CostTracing.Services.CurrencyExchange.API\CostTracing.Backend.CurrencyExchange.API.csproj", "{3F4CDD0D-C2AC-417C-876B-DC3B0F2C08F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CostTracing.Backend.CurrencyExchange.API", "CostTracing.Services.CurrencyExchange.API\CostTracing.Backend.CurrencyExchange.API.csproj", "{3F4CDD0D-C2AC-417C-876B-DC3B0F2C08F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyDataBaseCreator", "CurrencyDataBaseCreator\CurrencyDataBaseCreator.csproj", "{AF9CFBAF-964D-45FE-B2C3-07AE6819D5C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -101,6 +103,18 @@ Global
 		{3F4CDD0D-C2AC-417C-876B-DC3B0F2C08F7}.Release|iPhone.Build.0 = Release|Any CPU
 		{3F4CDD0D-C2AC-417C-876B-DC3B0F2C08F7}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{3F4CDD0D-C2AC-417C-876B-DC3B0F2C08F7}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{AF9CFBAF-964D-45FE-B2C3-07AE6819D5C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF9CFBAF-964D-45FE-B2C3-07AE6819D5C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF9CFBAF-964D-45FE-B2C3-07AE6819D5C8}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{AF9CFBAF-964D-45FE-B2C3-07AE6819D5C8}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{AF9CFBAF-964D-45FE-B2C3-07AE6819D5C8}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{AF9CFBAF-964D-45FE-B2C3-07AE6819D5C8}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{AF9CFBAF-964D-45FE-B2C3-07AE6819D5C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF9CFBAF-964D-45FE-B2C3-07AE6819D5C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF9CFBAF-964D-45FE-B2C3-07AE6819D5C8}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{AF9CFBAF-964D-45FE-B2C3-07AE6819D5C8}.Release|iPhone.Build.0 = Release|Any CPU
+		{AF9CFBAF-964D-45FE-B2C3-07AE6819D5C8}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{AF9CFBAF-964D-45FE-B2C3-07AE6819D5C8}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -6,8 +6,8 @@ namespace CostTracing.Core.Models
 {
     public class Identifier
     {
-        public string Name { get; set; }
+        public virtual string Name { get; set; }
 
-        public string Uri { get; set; }
+        public virtual string Uri { get; set; }
     }
 }

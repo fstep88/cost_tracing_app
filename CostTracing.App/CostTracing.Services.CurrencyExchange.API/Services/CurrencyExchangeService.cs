@@ -1,50 +1,28 @@
-﻿using CostTracing.Core.Models;
-using RestSharp;
+﻿using CostTracing.Backend.CurrencyExchange.API.Services.Data;
+using CostTracing.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using CostTracing.Core.Utils;
-using CostTracing.Backend.CurrencyExchange.API.Services.Data;
 
-namespace CostTracing.Backend.CurrencyExchange.API.Services.FixerIO
+namespace CostTracing.Backend.CurrencyExchange.API.Services
 {
-    public class FixerIOService : ICurrencyExchangeService
+    public class CurrencyExchangeService : ICurrencyExchangeService
     {
-        protected string _apiKey;
-        protected IRestClient _restClient = new RestClient("http://data.fixer.io/api");
 
-        public FixerIOService(string apiKey)
+        protected ICurrencyRepository _currencyRepository;
+        protected ICurrencyExchangeDataRepository _exchangeDataRepository;
+
+        public CurrencyExchangeService(ICurrencyRepository currencyRepository, ICurrencyExchangeDataRepository exchangeDataRepository)
         {
-            _apiKey = string.IsNullOrEmpty(apiKey)? throw new ArgumentException("Null or empty", nameof(apiKey)) : apiKey;
+            _currencyRepository = currencyRepository ?? throw new ArgumentNullException(nameof(currencyRepository));
+            _exchangeDataRepository = exchangeDataRepository ?? throw new ArgumentNullException(nameof(exchangeDataRepository));
+
         }
 
-        protected async Task<CurrencyList> FetchCurrentListIfOutdatedAsync(ICurrencyDataService dataService)
+        public async Task<IEnumerable<CurrencyConversionResult>> ConvertCurrencyAsync(double amount, string baseCurrency, params string[] targetCurrencySymbols)
         {
-            var list = await dataService.GetCurrentListAsync();
-
-            if (list == null || (list.Date.Day != DateTime.Now.Day && DateTime.Now.ToUniversalTime().Hour < 9))
-            {
-
-                var request = new RestRequest("current", Method.GET, DataFormat.Json);
-                request.AddQueryParameter("access_key", _apiKey);
-                list = await _restClient.ExecuteRequestAsyncThrowEx<CurrencyList>(request);
-                await dataService.SetCurrentListAsync(list);
-            }
-
-            return list;
-        }
-
-        public async Task<IEnumerable<Currency>> GetAvailableCurrenciesAsync(ICurrencyDataService dataService)
-        {
-            var currentAvailableList = await FetchCurrentListIfOutdatedAsync(dataService);
-            var list = await dataService.GetCurrencyDataAsync();
-            return list.Where(currency => currentAvailableList.Rates.ContainsKey(currency.Symbol));
-        }
-
-        public async Task<IEnumerable<CurrencyConversionResult>> ConvertCurrencyAsync(ICurrencyDataService dataService, double amount, string baseCurrency, params string[] targetCurrencySymbols)
-        {
-            var currentExchangeRates = await FetchCurrentListIfOutdatedAsync(dataService);
+            var currentExchangeRates = await _exchangeDataRepository.GetCurrencyExchangeData();
 
             if (!(currentExchangeRates.Rates.ContainsKey(baseCurrency) || currentExchangeRates.Base.Equals(baseCurrency)))
             {
@@ -59,9 +37,7 @@ namespace CostTracing.Backend.CurrencyExchange.API.Services.FixerIO
                     TargetSymbol = c,
                     Amount = Convert(amount, baseCurrency, c, currentExchangeRates)
                 });
-
         }
-
 
         protected double Convert(double amount, string baseCurrency, string targetCurrency, CurrencyList currentExchangeRates)
         {
@@ -85,6 +61,13 @@ namespace CostTracing.Backend.CurrencyExchange.API.Services.FixerIO
 
             var listBaseAmount = amount / baseToListBaseFactor;
             return listBaseAmount * targetToListBaseFactor;
+        }
+
+        public async Task<IEnumerable<Currency>> GetAvailableCurrenciesAsync()
+        {
+            var currentAvailableList = await _exchangeDataRepository.GetCurrencyExchangeData();
+            var list = await _currencyRepository.GetCurrencies();
+            return list.Where(currency => currentAvailableList.Rates.ContainsKey(currency.Symbol));
         }
     }
 }

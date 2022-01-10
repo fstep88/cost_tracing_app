@@ -1,4 +1,5 @@
-﻿using CostTracing.Core.Models;
+﻿using CostTracing.Backend.CurrencyExchange.API.Services.Data;
+using CostTracing.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -8,7 +9,7 @@ namespace CostTracing.Backend.CurrencyExchange.API.Services
 {
     public interface ICurrencyExchangeService
     {
-        Task<double> ConvertCurrencyAsync(double amount, string baseCurrency, string targetCurrency = "");
+        Task<IEnumerable<CurrencyConversionResult>> ConvertCurrencyAsync(double amount, string baseCurrency, params string[] targetCurrencySymbols);
 
         Task<IEnumerable<Currency>> GetAvailableCurrenciesAsync();
     }

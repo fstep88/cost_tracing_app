@@ -1,0 +1,657 @@
+[
+  {
+    
+    "Uri": "/currencies/ALL",
+    "Symbol": "ALL",
+    "Name": "Albania Lek",
+    "Country": "Albania"
+  },
+  {
+    "Uri": "/currencies/AFN",
+    "Symbol": "AFN",
+    "Name": "Afghanistan Afghani",
+    "Country": "Afghanistan"
+  },
+  {
+    "Uri": "/currencies/ARS",
+    "Symbol": "ARS",
+    "Name": "Argentina Peso",
+    "Country": "Argentina"
+  },
+  {
+    "Uri": "/currencies/AWG",
+    "Symbol": "AWG",
+    "Name": "Aruba Guilder",
+    "Country": "Aruba"
+  },
+  {
+    "Uri": "/currencies/AUD",
+    "Symbol": "AUD",
+    "Name": "Australia Dollar",
+    "Country": "Australia"
+  },
+  {
+    "Uri": "/currencies/AZN",
+    "Symbol": "AZN",
+    "Name": "Azerbaijan Manat",
+    "Country": "Azerbaijan"
+  },
+  {
+    "Uri": "/currencies/BSD",
+    "Symbol": "BSD",
+    "Name": "Bahamas Dollar",
+    "Country": "Bahamas"
+  },
+  {
+    "Uri": "/currencies/BBD",
+    "Symbol": "BBD",
+    "Name": "Barbados Dollar",
+    "Country": "Barbados"
+  },
+  {
+    "Uri": "/currencies/BYN",
+    "Symbol": "BYN",
+    "Name": "Belarus Ruble",
+    "Country": "Belarus"
+  },
+  {
+    "Uri": "/currencies/BZD",
+    "Symbol": "BZD",
+    "Name": "Belize Dollar",
+    "Country": "Belize"
+  },
+  {
+    "Uri": "/currencies/BMD",
+    "Symbol": "BMD",
+    "Name": "Bermuda Dollar",
+    "Country": "Bermuda"
+  },
+  {
+    "Uri": "/currencies/BOB",
+    "Symbol": "BOB",
+    "Name": "Bolivia Bol\u00EDviano",
+    "Country": "Bolivia"
+  },
+  {
+    "Uri": "/currencies/BAM",
+    "Symbol": "BAM",
+    "Name": "Bosnia and Herzegovina Convertible Mark",
+    "Country": "Bosnia and Herzegovina"
+  },
+  {
+    "Uri": "/currencies/BWP",
+    "Symbol": "BWP",
+    "Name": "Botswana Pula",
+    "Country": "Botswana"
+  },
+  {
+    "Uri": "/currencies/BGN",
+    "Symbol": "BGN",
+    "Name": "Bulgaria Lev",
+    "Country": "Bulgaria"
+  },
+  {
+    "Uri": "/currencies/BRL",
+    "Symbol": "BRL",
+    "Name": "Brazil Real",
+    "Country": "Brazil"
+  },
+  {
+    "Uri": "/currencies/BND",
+    "Symbol": "BND",
+    "Name": "Brunei Darussalam Dollar",
+    "Country": "Brunei"
+  },
+  {
+    "Uri": "/currencies/KHR",
+    "Symbol": "KHR",
+    "Name": "Cambodia Riel",
+    "Country": "Cambodia"
+  },
+  {
+    "Uri": "/currencies/CAD",
+    "Symbol": "CAD",
+    "Name": "Canada Dollar",
+    "Country": "Canada"
+  },
+  {
+    "Uri": "/currencies/KYD",
+    "Symbol": "KYD",
+    "Name": "Cayman Islands Dollar",
+    "Country": "Cayman Islands"
+  },
+  {
+    "Uri": "/currencies/CLP",
+    "Symbol": "CLP",
+    "Name": "Chile Peso",
+    "Country": "Chile"
+  },
+  {
+    "Uri": "/currencies/CNY",
+    "Symbol": "CNY",
+    "Name": "China Yuan",
+    "Country": "China"
+  },
+  {
+    "Uri": "/currencies/COP",
+    "Symbol": "COP",
+    "Name": "Colombia Peso",
+    "Country": "Colombia"
+  },
+  {
+    "Uri": "/currencies/CRC",
+    "Symbol": "CRC",
+    "Name": "Costa Rica Colon",
+    "Country": "Costa Rica"
+  },
+  {
+    "Uri": "/currencies/HRK",
+    "Symbol": "HRK",
+    "Name": "Croatia Kuna",
+    "Country": "Croatia"
+  },
+  {
+    "Uri": "/currencies/CUP",
+    "Symbol": "CUP",
+    "Name": "Cuba Peso",
+    "Country": "Cuba"
+  },
+  {
+    "Uri": "/currencies/CZK",
+    "Symbol": "CZK",
+    "Name": "Czech Republic Koruna",
+    "Country": "Czech Republic"
+  },
+  {
+    "Uri": "/currencies/DKK",
+    "Symbol": "DKK",
+    "Name": "Denmark Krone",
+    "Country": "Denmark"
+  },
+  {
+    "Uri": "/currencies/DOP",
+    "Symbol": "DOP",
+    "Name": "Dominican Republic Peso",
+    "Country": "Dominican Republic"
+  },
+  {
+    "Uri": "/currencies/XCD",
+    "Symbol": "XCD",
+    "Name": "East Caribbean Dollar",
+    "Country": "East Caribbean"
+  },
+  {
+    "Uri": "/currencies/EGP",
+    "Symbol": "EGP",
+    "Name": "Egypt Pound",
+    "Country": "Egypt"
+  },
+  {
+    "Uri": "/currencies/Colon",
+    "Symbol": "Colon",
+    "Name": "El Salvador",
+    "Country": "El"
+  },
+  {
+    "Uri": "/currencies/EUR",
+    "Symbol": "EUR",
+    "Name": "Euro Member Countries",
+    "Country": "Euro"
+  },
+  {
+    "Uri": "/currencies/FKP",
+    "Symbol": "FKP",
+    "Name": "Falkland Islands (Malvinas) Pound",
+    "Country": "Falkland Islands (Malvinas)"
+  },
+  {
+    "Uri": "/currencies/FJD",
+    "Symbol": "FJD",
+    "Name": "Fiji Dollar",
+    "Country": "Fiji"
+  },
+  {
+    "Uri": "/currencies/GHS",
+    "Symbol": "GHS",
+    "Name": "Ghana Cedi",
+    "Country": "Ghana"
+  },
+  {
+    "Uri": "/currencies/GIP",
+    "Symbol": "GIP",
+    "Name": "Gibraltar Pound",
+    "Country": "Gibraltar"
+  },
+  {
+    "Uri": "/currencies/GTQ",
+    "Symbol": "GTQ",
+    "Name": "Guatemala Quetzal",
+    "Country": "Guatemala"
+  },
+  {
+    "Uri": "/currencies/GGP",
+    "Symbol": "GGP",
+    "Name": "Guernsey Pound",
+    "Country": "Guernsey"
+  },
+  {
+    "Uri": "/currencies/GYD",
+    "Symbol": "GYD",
+    "Name": "Guyana Dollar",
+    "Country": "Guyana"
+  },
+  {
+    "Uri": "/currencies/HNL",
+    "Symbol": "HNL",
+    "Name": "Honduras Lempira",
+    "Country": "Honduras"
+  },
+  {
+    "Uri": "/currencies/HKD",
+    "Symbol": "HKD",
+    "Name": "Hong Kong Dollar",
+    "Country": "Hong Kong"
+  },
+  {
+    "Uri": "/currencies/HUF",
+    "Symbol": "HUF",
+    "Name": "Hungary Forint",
+    "Country": "Hungary"
+  },
+  {
+    "Uri": "/currencies/ISK",
+    "Symbol": "ISK",
+    "Name": "Iceland Krona",
+    "Country": "Iceland"
+  },
+  {
+    "Uri": "/currencies/INR",
+    "Symbol": "INR",
+    "Name": "India Rupee",
+    "Country": "India"
+  },
+  {
+    "Uri": "/currencies/IDR",
+    "Symbol": "IDR",
+    "Name": "Indonesia Rupiah",
+    "Country": "Indonesia"
+  },
+  {
+    "Uri": "/currencies/IRR",
+    "Symbol": "IRR",
+    "Name": "Iran Rial",
+    "Country": "Iran"
+  },
+  {
+    "Uri": "/currencies/IMP",
+    "Symbol": "IMP",
+    "Name": "Isle of Man Pound",
+    "Country": "Isle of Man"
+  },
+  {
+    "Uri": "/currencies/ILS",
+    "Symbol": "ILS",
+    "Name": "Israel Shekel",
+    "Country": "Israel"
+  },
+  {
+    "Uri": "/currencies/JMD",
+    "Symbol": "JMD",
+    "Name": "Jamaica Dollar",
+    "Country": "Jamaica"
+  },
+  {
+    "Uri": "/currencies/JPY",
+    "Symbol": "JPY",
+    "Name": "Japan Yen",
+    "Country": "Japan"
+  },
+  {
+    "Uri": "/currencies/JEP",
+    "Symbol": "JEP",
+    "Name": "Jersey Pound",
+    "Country": "Jersey"
+  },
+  {
+    "Uri": "/currencies/KZT",
+    "Symbol": "KZT",
+    "Name": "Kazakhstan Tenge",
+    "Country": "Kazakhstan"
+  },
+  {
+    "Uri": "/currencies/KPW",
+    "Symbol": "KPW",
+    "Name": "Korea (North) Won",
+    "Country": "Korea (North)"
+  },
+  {
+    "Uri": "/currencies/KRW",
+    "Symbol": "KRW",
+    "Name": "Korea (South) Won",
+    "Country": "Korea (South)"
+  },
+  {
+    "Uri": "/currencies/KGS",
+    "Symbol": "KGS",
+    "Name": "Kyrgyzstan Som",
+    "Country": "Kyrgyzstan"
+  },
+  {
+    "Uri": "/currencies/LAK",
+    "Symbol": "LAK",
+    "Name": "Laos Kip",
+    "Country": "Laos"
+  },
+  {
+    "Uri": "/currencies/LBP",
+    "Symbol": "LBP",
+    "Name": "Lebanon Pound",
+    "Country": "Lebanon"
+  },
+  {
+    "Uri": "/currencies/LRD",
+    "Symbol": "LRD",
+    "Name": "Liberia Dollar",
+    "Country": "Liberia"
+  },
+  {
+    "Uri": "/currencies/MKD",
+    "Symbol": "MKD",
+    "Name": "Macedonia Denar",
+    "Country": "Macedonia"
+  },
+  {
+    "Uri": "/currencies/MYR",
+    "Symbol": "MYR",
+    "Name": "Malaysia Ringgit",
+    "Country": "Malaysia"
+  },
+  {
+    "Uri": "/currencies/MUR",
+    "Symbol": "MUR",
+    "Name": "Mauritius Rupee",
+    "Country": "Mauritius"
+  },
+  {
+    "Uri": "/currencies/MXN",
+    "Symbol": "MXN",
+    "Name": "Mexico Peso",
+    "Country": "Mexico"
+  },
+  {
+    "Uri": "/currencies/MNT",
+    "Symbol": "MNT",
+    "Name": "Mongolia Tughrik",
+    "Country": "Mongolia"
+  },
+  {
+    "Uri": "/currencies/MZN",
+    "Symbol": "MZN",
+    "Name": "Mozambique Metical",
+    "Country": "Mozambique"
+  },
+  {
+    "Uri": "/currencies/NAD",
+    "Symbol": "NAD",
+    "Name": "Namibia Dollar",
+    "Country": "Namibia"
+  },
+  {
+    "Uri": "/currencies/NPR",
+    "Symbol": "NPR",
+    "Name": "Nepal Rupee",
+    "Country": "Nepal"
+  },
+  {
+    "Uri": "/currencies/Guilder",
+    "Symbol": "Guilder",
+    "Name": "Netherlands Antilles",
+    "Country": "Netherlands"
+  },
+  {
+    "Uri": "/currencies/NZD",
+    "Symbol": "NZD",
+    "Name": "New Zealand Dollar",
+    "Country": "New Zealand"
+  },
+  {
+    "Uri": "/currencies/NIO",
+    "Symbol": "NIO",
+    "Name": "Nicaragua Cordoba",
+    "Country": "Nicaragua"
+  },
+  {
+    "Uri": "/currencies/NGN",
+    "Symbol": "NGN",
+    "Name": "Nigeria Naira",
+    "Country": "Nigeria"
+  },
+  {
+    "Uri": "/currencies/NOK",
+    "Symbol": "NOK",
+    "Name": "Norway Krone",
+    "Country": "Norway"
+  },
+  {
+    "Uri": "/currencies/OMR",
+    "Symbol": "OMR",
+    "Name": "Oman Rial",
+    "Country": "Oman"
+  },
+  {
+    "Uri": "/currencies/PKR",
+    "Symbol": "PKR",
+    "Name": "Pakistan Rupee",
+    "Country": "Pakistan"
+  },
+  {
+    "Uri": "/currencies/PAB",
+    "Symbol": "PAB",
+    "Name": "Panama Balboa",
+    "Country": "Panama"
+  },
+  {
+    "Uri": "/currencies/PYG",
+    "Symbol": "PYG",
+    "Name": "Paraguay Guarani",
+    "Country": "Paraguay"
+  },
+  {
+    "Uri": "/currencies/PEN",
+    "Symbol": "PEN",
+    "Name": "Peru Sol",
+    "Country": "Peru"
+  },
+  {
+    "Uri": "/currencies/PHP",
+    "Symbol": "PHP",
+    "Name": "Philippines Peso",
+    "Country": "Philippines"
+  },
+  {
+    "Uri": "/currencies/PLN",
+    "Symbol": "PLN",
+    "Name": "Poland Zloty",
+    "Country": "Poland"
+  },
+  {
+    "Uri": "/currencies/QAR",
+    "Symbol": "QAR",
+    "Name": "Qatar Riyal",
+    "Country": "Qatar"
+  },
+  {
+    "Uri": "/currencies/RON",
+    "Symbol": "RON",
+    "Name": "Romania Leu",
+    "Country": "Romania"
+  },
+  {
+    "Uri": "/currencies/RUB",
+    "Symbol": "RUB",
+    "Name": "Russia Ruble",
+    "Country": "Russia"
+  },
+  {
+    "Uri": "/currencies/Pound",
+    "Symbol": "Pound",
+    "Name": "Saint Helena",
+    "Country": "Saint"
+  },
+  {
+    "Uri": "/currencies/Riyal",
+    "Symbol": "Riyal",
+    "Name": "Saudi Arabia",
+    "Country": "Saudi"
+  },
+  {
+    "Uri": "/currencies/RSD",
+    "Symbol": "RSD",
+    "Name": "Serbia Dinar",
+    "Country": "Serbia"
+  },
+  {
+    "Uri": "/currencies/SCR",
+    "Symbol": "SCR",
+    "Name": "Seychelles Rupee",
+    "Country": "Seychelles"
+  },
+  {
+    "Uri": "/currencies/SGD",
+    "Symbol": "SGD",
+    "Name": "Singapore Dollar",
+    "Country": "Singapore"
+  },
+  {
+    "Uri": "/currencies/SBD",
+    "Symbol": "SBD",
+    "Name": "Solomon Islands Dollar",
+    "Country": "Solomon Islands"
+  },
+  {
+    "Uri": "/currencies/SOS",
+    "Symbol": "SOS",
+    "Name": "Somalia Shilling",
+    "Country": "Somalia"
+  },
+  {
+    "Uri": "/currencies/ZAR",
+    "Symbol": "ZAR",
+    "Name": "South Africa Rand",
+    "Country": "South Africa"
+  },
+  {
+    "Uri": "/currencies/LKR",
+    "Symbol": "LKR",
+    "Name": "Sri Lanka Rupee",
+    "Country": "Sri Lanka"
+  },
+  {
+    "Uri": "/currencies/SEK",
+    "Symbol": "SEK",
+    "Name": "Sweden Krona",
+    "Country": "Sweden"
+  },
+  {
+    "Uri": "/currencies/CHF",
+    "Symbol": "CHF",
+    "Name": "Switzerland Franc",
+    "Country": "Switzerland"
+  },
+  {
+    "Uri": "/currencies/SRD",
+    "Symbol": "SRD",
+    "Name": "Suriname Dollar",
+    "Country": "Suriname"
+  },
+  {
+    "Uri": "/currencies/SYP",
+    "Symbol": "SYP",
+    "Name": "Syria Pound",
+    "Country": "Syria"
+  },
+  {
+    "Uri": "/currencies/TWD",
+    "Symbol": "TWD",
+    "Name": "Taiwan New Dollar",
+    "Country": "Taiwan"
+  },
+  {
+    "Uri": "/currencies/THB",
+    "Symbol": "THB",
+    "Name": "Thailand Baht",
+    "Country": "Thailand"
+  },
+  {
+    "Uri": "/currencies/TTD",
+    "Symbol": "TTD",
+    "Name": "Trinidad and Tobago Dollar",
+    "Country": "Trinidad and Tobago"
+  },
+  {
+    "Uri": "/currencies/TRY",
+    "Symbol": "TRY",
+    "Name": "Turkey Lira",
+    "Country": "Turkey"
+  },
+  {
+    "Uri": "/currencies/TVD",
+    "Symbol": "TVD",
+    "Name": "Tuvalu Dollar",
+    "Country": "Tuvalu"
+  },
+  {
+    "Uri": "/currencies/UAH",
+    "Symbol": "UAH",
+    "Name": "Ukraine Hryvnia",
+    "Country": "Ukraine"
+  },
+  {
+    "Uri": "/currencies/GBP",
+    "Symbol": "GBP",
+    "Name": "United Kingdom Pound",
+    "Country": "United Kingdom"
+  },
+  {
+    "Uri": "/currencies/USD",
+    "Symbol": "USD",
+    "Name": "United States Dollar",
+    "Country": "United States"
+  },
+  {
+    "Uri": "/currencies/UYU",
+    "Symbol": "UYU",
+    "Name": "Uruguay Peso",
+    "Country": "Uruguay"
+  },
+  {
+    "Uri": "/currencies/UZS",
+    "Symbol": "UZS",
+    "Name": "Uzbekistan Som",
+    "Country": "Uzbekistan"
+  },
+  {
+    "Uri": "/currencies/VEF",
+    "Symbol": "VEF",
+    "Name": "Venezuela Bolívar",
+    "Country": "Venezuela"
+  },
+  {
+    "Uri": "/currencies/Dong",
+    "Symbol": "Dong",
+    "Name": "Viet Nam",
+    "Country": "Viet"
+  },
+  {
+    "Uri": "/currencies/YER",
+    "Symbol": "YER",
+    "Name": "Yemen Rial",
+    "Country": "Yemen"
+  },
+  {
+    "Uri": "/currencies/ZWD",
+    "Symbol": "ZWD",
+    "Name": "Zimbabwe Dollar",
+    "Country": "Zimbabwe"
+  }
+]
